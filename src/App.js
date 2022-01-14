@@ -1,23 +1,50 @@
-import logo from './logo.svg';
+/* LIBRARY */
+import { React, lazy, Suspense, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+
+/* COMPONENT */
+import Navigation from './components/Navigation';
+import Loading from './components/Loading';
+const TradeContainer = lazy(() => import('./container/TradeContainer'));
+const CoordinateContainer = lazy(() =>
+  import('./container/CoordinateContainer'),
+);
+const Timer = lazy(() => import('./container/TimerContainer'));
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Routes>
+        <Route path="/" exact />
+        <Route
+          path="/trade"
+          element={
+            <Suspense fallback={<Loading />}>
+              <TradeContainer />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/coordinate"
+          exact
+          element={
+            <Suspense fallback={<Loading />}>
+              <CoordinateContainer />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/timer"
+          exact
+          element={
+            <Suspense fallback={<Loading />}>
+              <Timer />
+            </Suspense>
+          }
+        />
+      </Routes>
     </div>
   );
 }
