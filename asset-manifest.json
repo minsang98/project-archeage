@@ -1,0 +1,38 @@
+{
+  "files": {
+    "static/js/0.b27d0d11.chunk.js": "/project-archeage/static/js/0.b27d0d11.chunk.js",
+    "static/js/0.b27d0d11.chunk.js.map": "/project-archeage/static/js/0.b27d0d11.chunk.js.map",
+    "main.css": "/project-archeage/static/css/main.60725865.chunk.css",
+    "main.js": "/project-archeage/static/js/main.b44b44ca.chunk.js",
+    "main.js.map": "/project-archeage/static/js/main.b44b44ca.chunk.js.map",
+    "runtime-main.js": "/project-archeage/static/js/runtime-main.3c65c314.js",
+    "runtime-main.js.map": "/project-archeage/static/js/runtime-main.3c65c314.js.map",
+    "static/js/3.e3d5d205.chunk.js": "/project-archeage/static/js/3.e3d5d205.chunk.js",
+    "static/js/3.e3d5d205.chunk.js.map": "/project-archeage/static/js/3.e3d5d205.chunk.js.map",
+    "static/js/4.8594020e.chunk.js": "/project-archeage/static/js/4.8594020e.chunk.js",
+    "static/js/4.8594020e.chunk.js.map": "/project-archeage/static/js/4.8594020e.chunk.js.map",
+    "static/js/5.ab8251a3.chunk.js": "/project-archeage/static/js/5.ab8251a3.chunk.js",
+    "static/js/5.ab8251a3.chunk.js.map": "/project-archeage/static/js/5.ab8251a3.chunk.js.map",
+    "static/js/6.6dc69fc3.chunk.js": "/project-archeage/static/js/6.6dc69fc3.chunk.js",
+    "static/js/6.6dc69fc3.chunk.js.map": "/project-archeage/static/js/6.6dc69fc3.chunk.js.map",
+    "static/js/7.4a251347.chunk.js": "/project-archeage/static/js/7.4a251347.chunk.js",
+    "static/js/7.4a251347.chunk.js.map": "/project-archeage/static/js/7.4a251347.chunk.js.map",
+    "static/js/8.3624dab0.chunk.js": "/project-archeage/static/js/8.3624dab0.chunk.js",
+    "static/js/8.3624dab0.chunk.js.map": "/project-archeage/static/js/8.3624dab0.chunk.js.map",
+    "static/js/9.adafe705.chunk.js": "/project-archeage/static/js/9.adafe705.chunk.js",
+    "static/js/9.adafe705.chunk.js.map": "/project-archeage/static/js/9.adafe705.chunk.js.map",
+    "index.html": "/project-archeage/index.html",
+    "static/css/main.60725865.chunk.css.map": "/project-archeage/static/css/main.60725865.chunk.css.map",
+    "static/js/0.b27d0d11.chunk.js.LICENSE.txt": "/project-archeage/static/js/0.b27d0d11.chunk.js.LICENSE.txt",
+    "static/js/3.e3d5d205.chunk.js.LICENSE.txt": "/project-archeage/static/js/3.e3d5d205.chunk.js.LICENSE.txt",
+    "static/media/icon.b783c603.png": "/project-archeage/static/media/icon.b783c603.png",
+    "static/media/lol.3653b494.mp3": "/project-archeage/static/media/lol.3653b494.mp3",
+    "static/media/worldMap.29ca12a1.jpg": "/project-archeage/static/media/worldMap.29ca12a1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c65c314.js",
+    "static/js/3.e3d5d205.chunk.js",
+    "static/css/main.60725865.chunk.css",
+    "static/js/main.b44b44ca.chunk.js"
+  ]
+}
